@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content left">
+
+    <div class="profile">
+        <img src="{{ url_for('static', filename='profile_pic(1).jpg') }}">
+    </div>
+
+    <div class="profile-text">
+        <h1 class="rainbow">Ashley Madison</h1>
+    </div>
+
+</div>
+
+<div class="content right">
+    <div class="right-text">
+        <p> {{myself}} </p>
+        <a href="https://www.linkedin.com/in/ashley-madison-4a6841121/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/madisonashley2016"><i class="fab fa-github-square"></i></a>
+    </div>
+</div>
+
+{% endblock %}

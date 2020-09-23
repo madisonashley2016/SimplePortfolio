@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="projects">
+
+    <div class="project">
+
+        <div class="titlebar">
+            <div class="title">Twooter</div>
+            <div><a href="https://github.com/madisonashley2016/TwooterDjangoApp"><i class="fab fa-github"></i></a></div>
+        </div>
+
+        <div class="pcontent">
+            <div>Web Application based on the concept of Twitter, but you can only make posts that are 10 characters in length.
+            Built as a personal project, using the Django framework with Python, 
+            Django Channels, JavaScript with Ajax and jQuery on the frontend, and an SQLite database. 
+            Deployed on Heroku with a Daphne web server and a Redis server for the channels and a 
+            PostgreSQL database, with media hosted on AWS S3.</div>
+        </div>
+        
+    </div>
+
+
+    <div class="project">
+
+        <div class="titlebar">
+            <div class="title">CPU Scheduling Simulator</div>
+            <div><a href="https://github.com/madisonashley2016/My-Projects/tree/main/CPU_Scheduling_Simulator"><i class="fab fa-github"></i></a></a></div>
+        </div>
+
+        <div class="pcontent">Simulates four different CPU Scheduling Algorithms in C.
+            Calculates the results based on which processes are inserted into the simulation.
+        </div>
+        
+    </div>
+    <div class="project">
+
+        <div class="titlebar">
+            <div class="title">War Card Game Simulator</div>
+            <div><a href="https://github.com/madisonashley2016/My-Projects/tree/main/War%20Card%20Game"><i class="fab fa-github"></i></a></a></div>
+        </div>
+
+        <div class="pcontent">Simulates a game of the card game war in C. 
+            Utilizes two child processes communicating with a parent process using pipes.
+        </div>
+        
+    </div>
+
+    <div class="project">
+
+        <div class="titlebar">
+            <div class="title">Table Balancer</div>
+            <div><a href="https://github.com/madisonashley2016/My-Projects/tree/main/Table%20Balancer"><i class="fab fa-github"></i></a></a></div>
+        </div>
+
+        <div class="pcontent">Takes a square table of variable size specified by the user, 
+            and an equal number of weights, with weights corresponding to their place in the table, 
+            and places them on the table, so that the table remains balanced on a point, 
+            according to the constraints set.
+        </div>
+        
+    </div>
+
+    <div class="project">
+
+        <div class="titlebar">
+            <div class="title">Parallel 5-pointed Stencil</div>
+        </div>
+
+        <div class="pcontent">A program that takes a 2D-array and performs a 5-pointed stencil 
+            on it in parallel using the P-Threads library in C.
+        </div>
+        
+    </div>
+
+</div>
+{% endblock %}
