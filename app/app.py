@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 myself = '''Hi! I am a recent graduate of Coastal Carolina University.
             I am from West Columbia, SC. I am passionate about learning
-            and continuing to improve myself. I also enjoy running and wellness.'''
+            and continuing to improve myself. I also enjoy music, running and wellness.'''
 
 @app.route("/")
 def index():
